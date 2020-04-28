@@ -34,9 +34,9 @@ class ViewController: UIViewController {
         () -> Float in return Float(Int.random(in: 0 ... 255))
     }
     
-    private var redValue: Float = 0
-    private var greenValue: Float = 0
-    private var blueValue: Float = 0
+    private var redValue: Float = 0.0
+    private var greenValue: Float = 0.0
+    private var blueValue: Float = 0.0
 
     
     //MARK: - IBAction
@@ -65,7 +65,6 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
     }
     
     //MARK: - Functions
